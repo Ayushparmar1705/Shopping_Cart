@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="./Shopping_cart.css">
+</head>
+
+<body>
+    <div id="container">
+        <div class="prod">
+            <p class="name">Iphone 11</p>
+            <img class="img" src="./cart_images/image1.jpg" alt="image not found"><br>
+            <label for="">Price</label>
+            <p class="price">56000</p>
+            <input type="number" class="qty" value="0"><br><br>
+            <button>Addcart</button>
+        </div>
+
+
+
+
+        <div class="prod">
+            <p class="name">Iphone 12</p>
+            <img class="img" src="./cart_images/image2.jpg" alt="image not found"><br>
+            <label for="">Price</label>
+            <p class="price">66000</p>
+            <input type="number" class="qty" value="0"><br><br>
+            <button>Addcart</button>
+        </div>
+
+
+
+
+        <div class="prod">
+            <p class="name">Iphone 16</p>
+            <img class="img" src="./cart_images/image5.jpg" alt="image not found"><br>
+            <label for="">Price</label>
+            <p class="price">89000</p>
+            <input type="number" class="qty" value="0"><br><br>
+            <button>Addcart</button>
+        </div>
+
+
+        
+    </div>
+    <div id="display">
+        <h4>Your cart</h4>
+        <table id="table">
+            <tr>
+                <td>Name</td>
+                <td>Price</td>
+                <td>Quntity</td>
+                <td>Image</td>
+                <td>Total</td>
+            </tr>
+        </table>
+        <hr>
+        <h4 id="maintotal"></h4>
+    </div>
+    <script src="./jquery-3.7.1.min.js"></script>
+    <script src="./Shopping_cart.js"></script>
+</body>
+
+</html>
